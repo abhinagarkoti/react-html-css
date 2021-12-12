@@ -1,0 +1,16 @@
+.Cards{
+    height: 63vh;
+    background-color: rgb(236, 223, 223);
+    margin-top: 50px;
+
+}
+@media (max-width:900px){
+    .Cards{
+        margin-top: 20px !important;
+        
+    }
+    .card-contain{
+        display: flex;
+        justify-content: center;
+    }
+}

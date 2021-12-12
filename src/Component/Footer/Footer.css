@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top:13vh ;
+    padding-bottom: 14vh;
+
+}
+@media (max-width:900px){
+    .texts{
+        width: 80vw;
+        margin-top: 2vw;
+    }
+    .align{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:1000px){
+    .texts{
+        width: 50vw;
+    }
+    .align{
+        display: flex;
+        justify-content: center;
+    }
+}

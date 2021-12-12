@@ -1,0 +1,31 @@
+.colfortext{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    flex-direction: column;
+}
+.inputdiv{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+.input{
+border: none;
+width: 25vw;
+}
+.input:focus{
+    outline: none;
+}
+.btnbtn{
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+@media (max-width:500px){
+    .enter{
+        margin-top: 50px;
+    }
+}
